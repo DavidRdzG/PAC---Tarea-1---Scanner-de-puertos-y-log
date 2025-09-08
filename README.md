@@ -7,16 +7,16 @@ Se determina el nivel de riesgo de una posible explotacion del puerto basado en 
 
 Integrantes del equipo
 
-David Alejandro Rodriguez Garcia
+    David Alejandro Rodriguez Garcia
 
-Jair Eliud Flores Puente
+    Jair Eliud Flores Puente
 
 Instrucciones de compliacion y ejecucion
 
-  Requisitos:
-    -Sistema operativo: Windows
-    -Compilador: g++
-    -Librerias:
+  Requisitos: Sistema operativo: Windows, Compilador g++
+    
+  Librerias:
+  
       #include <winsock2.h>
       #pragma comment(lib, "ws2_32.lib")
       #include <ws2tcpip.h>
@@ -30,5 +30,27 @@ Instrucciones de compliacion y ejecucion
       #include <iomanip>
 
 Compilacion:
-    g++ realmain.cpp -o realmain.exe -lws2_32
-    .\realmain.exe
+
+    g++ main.cpp -o main.exe -lws2_32
+  
+    .\main.exe
+
+Enfoque:
+
+Este proyecto utiliza Winsock2 para realizar conexiones a puertos sobre la direccion IP ingresada. Para cada puerto dentro del rago o lista de puertos objetivo se intenta establecer una conexion y determina el status del puerto dada su respuesta.
+
+Salida generada:
+
+El archivo de texto en el que se registran los resultados contiene:
+
+    Fecha en formato (yyyy-mm-dd)
+    Hora en formato (hh:mm:ss)
+    Direccion IPv4 (xxx.xxx.xxx.xxx)
+    Puerto (xxxxx)
+    Status (OPEN/CLOSED/FILTERED)
+    Nivel de riesgo (HIGH/MEDIUM/LOW)
+
+Referencias
+
+    https://learn.microsoft.com/es-es/windows/win32/winsock/creating-a-basic-winsock-application
+    https://learn.microsoft.com/es-es/cpp/standard-library/chrono-functions?view=msvc-170
