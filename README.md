@@ -9,7 +9,7 @@ Integrantes del equipo
 
     David Alejandro Rodriguez Garcia - 1814035
 
-    Jair Eliud Flores Puente - 
+    Jair Eliud Flores Puente - 2076332
 
 Instrucciones de compliacion y ejecucion
 
