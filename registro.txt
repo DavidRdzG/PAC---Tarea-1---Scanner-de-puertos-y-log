@@ -1,0 +1,6 @@
+2025-09-07 19:17:51 - 192.168.100.6 - Puerto 440 - Status: FILTERED - Riesgo: LOW
+2025-09-07 19:17:54 - 192.168.100.6 - Puerto 441 - Status: FILTERED - Riesgo: LOW
+2025-09-07 19:17:57 - 192.168.100.6 - Puerto 442 - Status: FILTERED - Riesgo: LOW
+2025-09-07 19:18:00 - 192.168.100.6 - Puerto 443 - Status: FILTERED - Riesgo: LOW
+2025-09-07 19:18:03 - 192.168.100.6 - Puerto 444 - Status: FILTERED - Riesgo: LOW
+2025-09-07 19:18:03 - 192.168.100.6 - Puerto 445 - Status: CLOSED - Riesgo: LOW
