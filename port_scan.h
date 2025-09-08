@@ -1,3 +1,5 @@
+// Realizado por Jair Eliud Flores Puente
+
 #include "port_status.h"
 #include <winsock2.h>
 #include <ws2tcpip.h>
@@ -56,3 +58,4 @@ PortStatus scanPort(const std::string& ip, int port, int timeout_ms = 3000) {
     if (sel > 0) return PortStatus::CLOSED;
     else return PortStatus::FILTERED;
 }
+
