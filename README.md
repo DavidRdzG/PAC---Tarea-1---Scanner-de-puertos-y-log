@@ -7,9 +7,9 @@ Se determina el nivel de riesgo de una posible explotacion del puerto basado en 
 
 Integrantes del equipo
 
-    David Alejandro Rodriguez Garcia
+    David Alejandro Rodriguez Garcia - 1814035
 
-    Jair Eliud Flores Puente
+    Jair Eliud Flores Puente - 
 
 Instrucciones de compliacion y ejecucion
 
